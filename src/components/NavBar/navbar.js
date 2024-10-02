@@ -1,3 +1,7 @@
+//File: index.js
+//Student: Minh Khoi Phan
+//ID: 301278135;
+//Date: Sept. 28, 2024
 import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo2.png';
@@ -16,5 +20,4 @@ const Navbar = () => {
         </nav>
     )
 }
-
 export default Navbar
