@@ -1,17 +1,45 @@
+//File: index.js
+//Student: Minh Khoi Phan
+//ID: 301278135;
+//Date: Sept. 28, 2024
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import About from "./components/About/about";
+import Service from "./components/Service/service";
+import Project from "./components/Project/project";
+import Contact from "./components/Contact/contact";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+// Declare router
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/About",
+    element: <About/>,
+  },
+  {
+    path: "/Service",
+    element: <Service/>,
+  },
+  {
+    path: "/Project",
+    element: <Project/>,
+  },
+  {
+    path: "/Contact",
+    element: <Contact/>,
+  },
+]);
+// Declare DOM object
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} /> 
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

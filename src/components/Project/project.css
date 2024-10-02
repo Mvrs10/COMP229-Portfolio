@@ -1,0 +1,57 @@
+/*File: Project Page Style
+//Student: Minh Khoi Phan
+//ID: 301278135;
+//Date: Sept. 28, 2024*/
+#project {
+    width: 100vw;
+    max-width: 90vw;
+    text-align: center;
+    margin:0 auto;
+    font-size: 22px;
+}
+.projectTitle {
+    font-weight: 800;
+    font-size: 50px;
+    color: aquamarine
+}
+.projectList {
+    padding-top: 3rem;
+    margin: 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    padding: 10px;
+    font-size: 24px;
+}
+.projectItems {
+    margin: 1px;
+    border-bottom: 10px solid aquamarine;
+    border-top: 10px solid aquamarine;
+    padding: 2rem;
+    border-radius: 80px;
+    width: 400px;
+}
+.projectIMG {    
+    width: 300px;
+    height: 300px;    
+}
+@media screen and (max-width: 590px) {
+    .projectIMG {
+        height: 100px;
+        width: 100px;
+    }   
+    .projectItems {
+        height: 200px;
+        width: 200px;
+        font-size: 14px;
+    } 
+}

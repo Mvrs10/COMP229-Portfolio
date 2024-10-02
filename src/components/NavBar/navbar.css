@@ -1,0 +1,43 @@
+.navbar {
+    text-decoration: none;
+    height: 5rem;
+    width: 100vw;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background-color: rgb(16, 116, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+}
+.mainMenuList {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+}
+.mainMenuList:hover{
+    color: yellowgreen;
+    padding-bottom: 2px;
+    border-bottom: 3px solid yellowgreen;
+}
+.mainMenuBtn {
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+    cursor:pointer;
+}
+.mainMenuBtn:hover{
+    background-color: rgb(202, 184, 184);
+}

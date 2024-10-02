@@ -1,0 +1,46 @@
+/*File: Service Page Style
+//Student: Minh Khoi Phan
+//ID: 301278135;
+//Date: Sept. 28, 2024*/#service {    
+    width: 100vw;
+    max-width: 90vw;
+    text-align: center;
+    margin:0 auto;
+    font-size: 22px;
+}
+.serviceTitle {
+    font-weight: 800;
+    font-size: 50px;
+    color: aquamarine
+}
+.serviceList {
+    padding-top: 3rem;
+    margin: 1px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceItems {
+    margin: 1px;
+    border: 5px solid aquamarine;
+    padding: 2rem;
+    border-radius: 40px;
+    height: 320px;
+    width: 320px;
+}
+.serviceIMG {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;    
+}
+@media screen and (max-width: 590px) {
+    .serviceIMG {
+        height: 70px;
+        width: 70px;
+    }   
+    .serviceItems {
+        height: 200px;
+        width: 200px;
+        font-size: 14px;
+    } 
+}

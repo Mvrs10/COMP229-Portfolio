@@ -1,0 +1,73 @@
+/*File: Contact Page Style
+//Student: Minh Khoi Phan
+//ID: 301278135;
+//Date: Sept. 28, 2024*/
+#contact {
+    width: 100vw;
+    max-width: 90vw;
+    text-align: center;
+    margin:0 auto;
+    font-size: 22px;
+}
+.contactPage {
+    padding-top: 5rem;
+}
+.contactTitle {
+    font-weight: 800;
+    font-size: 50px;
+    color: aquamarine
+}
+.contactForm {
+    margin: auto;
+    width: 90vw;
+    max-width:60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name, .email, .txtBox {
+    font-size:medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    color:white;
+    background-color: rgb(26, 24, 24);
+    border: none;
+    border-radius: 10px;
+}
+.submitBtn, .resetBtn {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size:large;
+    margin:10px;
+    font-weight:600;
+    cursor: pointer;
+}
+.resetBtn:hover{
+    color: yellowgreen;
+    padding-bottom: 2px;
+    border-bottom: 3px solid yellowgreen;
+}
+.submitBtn:hover{
+    color: yellowgreen;
+    padding-bottom: 2px;
+    border-bottom: 3px solid yellowgreen;
+    box-shadow: 5px;
+}
+.socialIMG {    
+    width: 50px;
+    height: 50px;    
+}
+.social {
+    padding-top: 2rem;
+    margin: auto;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
