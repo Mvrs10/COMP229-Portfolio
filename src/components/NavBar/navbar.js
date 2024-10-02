@@ -1,4 +1,4 @@
-//File: index.js
+//File: Nav Bar
 //Student: Minh Khoi Phan
 //ID: 301278135;
 //Date: Sept. 28, 2024
