@@ -20,21 +20,21 @@ A personal portfolio (front-end).
 
 <p align="center">
 Homepage: <br/>
-<img src="https://i.imgur.com/htGIndu.png" height="80%" width="80%" alt="Mathnasium Center"/>
+<img src="https://i.imgur.com/35zCI88.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
 Online Contact Form:  <br/>
-<img src="https://i.imgur.com/hHd30rm.png" height="80%" width="80%" alt="Mathnasium Center"/>
+<img src="https://i.imgur.com/mp8NlJh.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
 About: <br/>
-<img src="https://i.imgur.com/e1av1HC.png" height="80%" width="80%" alt="Mathnasium Center"/>
+<img src="https://i.imgur.com/2brcKrf.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
 Service:  <br/>
-<img src="https://i.imgur.com/o6IwhRI.png" height="80%" width="80%" alt="Mathnasium Center"/>
+<img src="https://i.imgur.com/1ffxW6L.png" height="80%" width="80%" alt="Mathnasium Center"/>
 <br />
 <br />
 Projects:  <br/>
-<img src="https://i.imgur.com/7VONfDG.png" height="80%" width="80%" alt="Mathnasium Center"/>
+<img src="https://i.imgur.com/Ng9C7xN.png" height="80%" width="80%" alt="Mathnasium Center"/>
 </p>
